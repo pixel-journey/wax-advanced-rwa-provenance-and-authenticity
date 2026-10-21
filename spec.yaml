@@ -1,0 +1,20 @@
+name: wax-advanced-rwa-provenance-and-authenticity
+trust_label: educational-reference
+version: 0.1.0
+purpose: >
+  Compare a claimed account with the last owner in a list.
+invariants:
+  - src/claim.ts performs no network or wallet calls.
+  - Requests in src/usecases.ts set executed to false.
+  - No use case contains a transaction.
+do_not:
+  - Do not add a live client and keep this trust label.
+entrypoints:
+  logic: src/claim.ts
+  tests: src/claim.test.ts
+  demo: src/Demo.tsx
+commands:
+  test: npm test
+live_data:
+  status: untested
+  notes: No endpoint was called.
