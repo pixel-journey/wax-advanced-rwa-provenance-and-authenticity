@@ -7,6 +7,8 @@ bob matches a list that ends in bob. alice does not. History is not walked.
 
 The earlier README described a live product. This tree does not ship that.
 
+The course is [EDUCATION.md](./EDUCATION.md). A match is last-name equality. It is not a mint trail, not a camera, and not AtomicAssets v2 backing. `wax-rwa-provenance-genealogy-tree` counts hops and returns `{ ok: false }` instead of throwing.
+
 ## What is actually in the repo
 
 | Piece | Role |
