@@ -3,8 +3,11 @@
 | Source | Use |
 | --- | --- |
 | [src/claim.ts](src/claim.ts) | Last-name equality. History is not walked |
-| [genealogy tree](https://github.com/pixel-journey/wax-rwa-provenance-genealogy-tree) | Hop count. Returns `{ ok: false }` instead of throwing |
 | [docs.wax.io](https://docs.wax.io/) | Account names. Not a provenance standard |
+| [docs.wax.io AtomicAssets](https://docs.wax.io/build/tutorials/howto_atomicassets) | NFT context |
+| [genealogy tree](https://github.com/pixel-journey/wax-rwa-provenance-genealogy-tree) | Hop count; returns `{ ok: false }` instead of throwing |
+| [certificate verifier](https://github.com/pixel-journey/wax-rwa-certificate-authenticity-verifier) | demoScan never verifies |
+| [atomic-knowledge](https://github.com/atomicassets/atomic-knowledge) | Boundary: not a physical proof |
 
 ## Locked by the function
 
@@ -16,3 +19,7 @@
 ## Portability
 
 Last-element equality ports to any chain whose account names match the Antelope shape (`a-z`, `1-5`, dot, 1..12). It does not become a legal authenticity certificate on EOS, Telos, or WAX.
+
+## Suggested topics
+
+`antelope` `education` `pixel-journey` `nft` `wax`
